@@ -96,17 +96,7 @@ All dependencies will be listed in `requirements.txt`.
   - Extend to real-time data validation  
   - Incorporate deep learning models for predictive trade filtering  
   - Build an interactive dashboard for live visualization
-
----
-
-## Project Timeline
-| Date | Milestone |
-|------|------------|
-| **31 October** | Project proposal submission (this README.md) |
-| **28 November** | Data collection & exploratory data analysis |
-| **02 January** | Apply ML models on dataset |
-| **09 January (23:59)** | Final submission with code, visuals, and report |
-
+ 
 ---
 
 ## Deliverables
@@ -126,10 +116,10 @@ All dependencies will be listed in `requirements.txt`.
 ---
 
 ## Author
-**Name:** *[Alamin Bawa Idris]*  
+**Name:** *Alamin Bawa Idris*  
 **Course:** DSA 210 — Introduction to Data Science  
 **Term:** 2025–2026 Fall  
-**Institution:** *[Sabanci University]*  
+**Institution:** *Sabanci University*  
 
 ---
 
