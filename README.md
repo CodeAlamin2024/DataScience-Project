@@ -120,4 +120,4 @@ All dependencies will be listed in `requirements.txt`.
 
 ---
 
-> *“Trading is where data meets psychology, and data science gives us the language to understand both.”*
+> *“Trading is where data meets psychology, and Data Science gives us the language to understand both.”*
