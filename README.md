@@ -113,7 +113,7 @@ All dependencies will be listed in `requirements.txt`.
 ---
 
 ## Author
-**Name:** *Alamin Bawa Idris* 
+**Name:** Alamin Bawa Idris
 **Course:** DSA 210 — Introduction to Data Science by Özgür Asar
 **Term:** 2025–2026 Fall  
 **Institution:** *Sabanci University*  
