@@ -30,8 +30,7 @@ Each record in the dataset includes:
 - Technical indicators that triggered the trade (e.g., RSI, Moving Average, MACD)
 
 **Collection Method:**  
-Data is generated via a Python-based or platform-based backtesting system.  
-To enrich this dataset (as required), I will integrate additional financial indicators such as:
+Data is generated via a platform-based backtesting system (TradingView). To enrich this dataset (as required), I will integrate additional financial indicators such as:
 - Daily volatility or ATR values  
 - Major economic news events (e.g., CPI, NFP releases)  
 - Market session information (London, New York, Asian sessions)
