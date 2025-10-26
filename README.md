@@ -1,5 +1,5 @@
 # DataScience-Project
-# Analyzing Candle Range Theory (CRT) Trading Strategy
+## Analyzing Candle Range Theory (CRT) Trading Strategy
 
 # Analyzing Trading Strategy Backtesting Data to Evaluate Performance and Predict Profitability
 
