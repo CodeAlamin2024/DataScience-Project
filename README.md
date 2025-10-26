@@ -19,7 +19,7 @@ Through this project, I hope to answer a key question:
 
 ## Data Source
 **Primary Dataset:**  
-Backtesting results from my personal trading strategies tested on historical Forex/crypto market data.
+Backtesting results from my personal trading strategies tested on historical Forex market data.
 
 Each record in the dataset includes:
 - Date and time of trade  
