@@ -4,9 +4,7 @@
 # Analyzing Trading Strategy Backtesting Data to Evaluate Performance and Predict Profitability
 
 ## Overview
-This project applies data science methodologies to analyze trading strategy backtesting data.  
-The goal is to identify which factors most strongly influence profitability and risk while developing predictive understanding for future trades.  
-It demonstrates how data-driven approaches can enhance trading decision-making and strategy optimization.
+This project applies data science methodologies to analyze trading strategy backtesting data. The goal is to identify which factors most strongly influence profitability and risk while developing predictive understanding for future trades. It demonstrates how data-driven approaches can enhance trading decision-making and strategy optimization.
 
 ---
 
