@@ -1,5 +1,5 @@
 # DataScience-Project
-Analyzing Candle Range Theory (CRT) Trading Strategy
+# Analyzing Candle Range Theory (CRT) Trading Strategy
 
 # Analyzing Trading Strategy Backtesting Data to Evaluate Performance and Predict Profitability
 
@@ -12,7 +12,7 @@ It demonstrates how data-driven approaches can enhance trading decision-making a
 
 ## Motivation
 As both a trader and data science student, I aim to understand how quantitative metrics reflect trading performance.  
-Backtesting data provides a perfect foundation for applying the data science process — from data collection to machine learning.  
+Backtesting data provides a perfect foundation for applying the data science process from data collection to machine learning.  
 Through this project, I hope to answer a key question:
 
 > “What makes a trading strategy consistently profitable over time?”
@@ -68,14 +68,14 @@ Models considered:
 ---
 
 ## Expected Findings
-- Insights on which technical factors most strongly correlate with profitability  
+- I want to understand which technical factors most strongly correlate with profitability  
 - Understanding of how market timing affects trade outcomes  
 - A model capable of estimating the probability of success before a trade executes  
 - Visualized performance metrics (equity curve, drawdown, Sharpe ratio, etc.)
 
 ---
 
-## Tools & Technologies
+## Tools Used
 | Category | Tools |
 |-----------|--------|
 | Language | Python |
@@ -102,14 +102,14 @@ All dependencies will be listed in `requirements.txt`.
 ## Deliverables
 - Python scripts for data cleaning, analysis, and modeling  
 - Visualizations (profit curve, correlation plots, etc.)  
-- Report or web-based visualization dashboard  
+- Report 
 - `requirements.txt` for dependencies  
-- `README.md` (this document)  
+- `README.md`  
 
 ---
 
 ## Ethical Considerations
-- Data is simulated or derived from open financial sources, with no personal information.  
+- My data is simulated and derived from open financial sources, with no personal information.  
 - External datasets (e.g., economic indicators) will be properly cited.  
 - AI tools such as ChatGPT were used for proposal structuring and documentation, with full disclosure in compliance with academic integrity policies.
 
@@ -123,4 +123,4 @@ All dependencies will be listed in `requirements.txt`.
 
 ---
 
-> *“Trading is where data meets psychology — and data science gives us the language to understand both.”*
+> *“Trading is where data meets psychology, and data science gives us the language to understand both.”*
