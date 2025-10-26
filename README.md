@@ -106,7 +106,7 @@ All dependencies will be listed in `requirements.txt`.
 ---
 
 ## Ethical Considerations
-- My data is simulated and derived from open financial sources, with no personal information.  
+- My data is simulated and derived from open financial sources. 
 - External datasets (e.g., economic indicators) will be properly cited.  
 - AI tools such as ChatGPT were used for proposal structuring and documentation, with full disclosure in compliance with academic integrity policies.
 
