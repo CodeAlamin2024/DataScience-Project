@@ -9,9 +9,7 @@ This project applies data science methodologies to analyze trading strategy back
 ---
 
 ## Motivation
-As both a trader and data science student, I aim to understand how quantitative metrics reflect trading performance.  
-Backtesting data provides a perfect foundation for applying the data science process from data collection to machine learning.  
-Through this project, I hope to answer a key question:
+As both a trader and data science student, I aim to understand how quantitative metrics reflect trading performance. Backtesting data provides a perfect foundation for applying the data science process from data collection to machine learning. Through this project, I hope to answer a key question:
 
 > “What makes a trading strategy consistently profitable over time?”
 
