@@ -17,8 +17,8 @@ As both a trader and data science student, I aim to understand how quantitative 
 
 ## Data Source
 **Primary Dataset:**  
-Backtesting results from my personal trading strategies tested on historical Forex market data.
 
+Backtesting results from my personal trading strategies tested on historical Forex market data.
 Each record in the dataset includes:
 - Date and time of trade  
 - Entry and exit prices  
