@@ -30,7 +30,7 @@ Sweeps: Price briefly breaks a previous high/low to trigger stop losses before r
 Fair Value Gaps (FVGs): Areas where price moves too quickly, leaving temporary “imbalances” that tend to get filled.
 A typical CRT entry involves waiting for a sweep or FVG tap around a key H4 candle level.
 
-## 4. How a CRT Trade Works (Simplified)
+## 4. How a CRT Trade Works
 1. Identify the active H4 candle of the day.
 2. Detect a sweep or reversal formation between Candle 1 and Candle 2.
 3. Switch to the M15 chart to refine entry timing using sweeps or FVG fills.
