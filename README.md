@@ -56,14 +56,19 @@ Backtesting provides a controlled environment where trades can be studied withou
 ## Data Source
 **Primary Dataset:**  
 
-Backtesting results from my personal trading strategies tested on historical Forex market data.
-Each record in the dataset includes:
-- Date and time of trade  
-- Entry and exit prices  
-- Trade direction (Buy/Sell)  
-- Profit or loss amount  
-- Stop-loss and take-profit levels  
-- Technical indicators that triggered the trade (e.g., RSI, Moving Average, MACD)
+## Primary Dataset
+The dataset consists of backtested CRT trades on the GBPUSD currency pair, including:
+- Date & time of entry
+- Entry and exit prices
+- Stop-loss & take-profit levels
+- Profit/loss and return percentage
+- Position direction (Buy/Sell)
+- Market session (London, New York, Asian)
+- H4 timeframe structure notes
+### Additional Data Considered
+- Daily volatility (ATR)
+- Economic event timestamps (e.g., CPI, NFP)
+- Weekly timing effects (day-of-week performance)
 
 **Collection Method:**  
 Data is generated via a platform-based backtesting system (TradingView). To enrich this dataset (as required), I will integrate additional financial indicators such as:
