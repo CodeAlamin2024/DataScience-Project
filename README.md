@@ -76,29 +76,6 @@ Data is generated via a platform-based backtesting system (TradingView).
 
 ## Methodology
 
-### 1. **Data Cleaning & Preparation**
-- Handle missing or incomplete trade entries  
-- Convert timestamps to extract features (hour, weekday, session)  
-- Normalize profit/loss values  
-- Create new features such as risk–reward ratio, duration, and volatility exposure  
-
-### 2. **Exploratory Data Analysis (EDA)**
-- Profit and loss distribution visualization  
-- Win-rate trends by day, session, or indicator  
-- Correlation between features (e.g., indicator signals vs. profitability)  
-- Time-series analysis of equity growth  
-
-### 3. **Hypothesis Testing**
-- Test if performance differs significantly between trading sessions or market conditions  
-- Examine whether higher risk correlates with higher average returns  
-
-### 4. **Machine Learning Application**
-Goal: Predict **whether a trade will be profitable** based on pre-trade features.  
-Models considered:
-- Logistic Regression / Random Forest (classification)  
-- Linear Regression / XGBoost (return prediction)  
-- Feature importance analysis for signal interpretation
-
 ### 1. **Data Cleaning & Feature Engineering**
 Convert dates and times into actionable features (hour, weekday, session).
 Convert win/loss into numerical labels.
@@ -119,17 +96,25 @@ These tests validate whether observed trends are meaningful or random.
 ### 4. **Machine Learning**
 Objective:
 Predict whether a trade will be profitable based only on pre-trade data.
-Models used:
-Logistic Regression
-Random Forest
+
+**Models used:**
+- Logistic Regression
+- Random Forest
 
 ---
 
 ## Expected Findings
-- I want to understand which technical factors most strongly correlate with profitability  
-- Understanding of how market timing affects trade outcomes  
-- A model capable of estimating the probability of success before a trade executes  
-- Visualized performance metrics (equity curve, drawdown, Sharpe ratio, etc.)
+Through this study, my aim is to identify:
+- Sessions with significantly higher win rates
+- Whether directional bias (Sell > Buy) exists
+- If timing (weekdays, hours) impacts outcomes
+- Which features contribute most to predictive performance
+- Whether CRT shows consistent structural advantages
+The project will also visualize performance through:
+- Equity curves
+- Drawdowns
+- Distribution plots
+- Grouped performance tables
 
 ---
 
