@@ -76,7 +76,7 @@ Data is generated via a platform-based backtesting system (TradingView).
 
 ## Methodology
 
-### 1. **Data Cleaning & Feature Engineering**
+### 1. **Data Cleaning**
 Convert dates and times into actionable features (hour, weekday, session).
 Convert win/loss into numerical labels.
 Compute R-multiple, duration, and percentage returns.
