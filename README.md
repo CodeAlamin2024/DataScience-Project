@@ -48,6 +48,7 @@ This allows the CRT strategy to be examined using statistical tests and machine 
 ## Motivation
 Traders often rely on intuition or experience, but markets generate rich data that can be analyzed objectively. As a data science student and trader, I wanted to answer:
 > “Which parts of the CRT strategy truly produce an edge and which do not?”
+
 Backtesting provides a controlled environment where trades can be studied without emotional influence. This project combines financial logic with data science methodology to validate or challenge assumptions about the strategy.
 
 ---
