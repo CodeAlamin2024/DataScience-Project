@@ -8,10 +8,47 @@ This project applies data science techniques to evaluate the performance of a Fo
 
 ---
 
-## Motivation
-As both a trader and data science student, I aim to understand how quantitative metrics reflect trading performance. Backtesting data provides a perfect foundation for applying the data science process from data collection to machine learning. Through this project, I hope to answer a key question:
+## Understanding the CRT Strategy
+Candle Range Theory (CRT) is a price-action–based trading framework that analyzes how a sequence of larger candles (H4 timeframe) interacts with lower-timeframe behavior (M15). Rather than relying on traditional indicators, CRT focuses on market structure, liquidity, and candle dynamics.
 
-> “What makes a trading strategy consistently profitable over time?”
+## 1. The H4 → M15 Framework
+CRT begins by identifying key candles on the 4-hour (H4) chart. The ranges—high, low, and body—of these candles act as important zones where institutions place orders. The strategy then drills down to the 15-minute (M15) chart to pinpoint precise entry points.
+
+## 2. Candle 1 – Candle 2 – Candle 3 Model
+The foundational pattern in CRT consists of three candles:
+# Candle 1 (Impulse Candle):
+Typically creates a large move that sweeps liquidity and sets the initial range.
+# Candle 2 (Reversal Candle):
+Often rejects the extreme of Candle 1 and signals a potential turning point.
+# Candle 3 (Continuation Candle):
+Confirms the direction by breaking out or filling imbalances.
+Most CRT trades are based on the reaction around Candle 2.
+
+## 3. Sweeps and Fair Value Gaps (FVG)
+CRT relies heavily on two market behaviors:
+Sweeps: Price briefly breaks a previous high/low to trigger stop losses before reversing.
+Fair Value Gaps (FVGs): Areas where price moves too quickly, leaving temporary “imbalances” that tend to get filled.
+A typical CRT entry involves waiting for a sweep or FVG tap around a key H4 candle level.
+
+## 4. How a CRT Trade Works (Simplified)
+1. Identify the active H4 candle of the day.
+2. Detect a sweep or reversal formation between Candle 1 and Candle 2.
+3. Switch to the M15 chart to refine entry timing using sweeps or FVG fills.
+4. Enter at the imbalance or sweep zone; place stop-loss outside structure.
+5. Target expected continuation from Candle 3.
+
+## 5. Why CRT Is Suitable for Data Science
+CRT is rule-based, structured, and time-dependent. This makes it ideal for data-driven evaluation:
+- Clear entry and exit rules
+- Time-based hierarchy (H4 → M15)
+- Repeatable patterns
+- Zones that can be converted into numerical features
+This allows the CRT strategy to be examined using statistical tests and machine learning.
+
+## Motivation
+Traders often rely on intuition or experience, but markets generate rich data that can be analyzed objectively. As a data science student and trader, I wanted to answer:
+> “Which parts of the CRT strategy truly produce an edge and which do not?”
+Backtesting provides a controlled environment where trades can be studied without emotional influence. This project combines financial logic with data science methodology to validate or challenge assumptions about the strategy.
 
 ---
 
