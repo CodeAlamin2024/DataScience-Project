@@ -4,7 +4,7 @@
 ## Analyzing Trading Strategy Backtesting Data to Evaluate Performance and Predict Profitability
 
 ## Overview
-This project applies data science methodologies to analyze trading strategy backtesting data. The goal is to identify which factors most strongly influence profitability and risk while developing predictive understanding for future trades. It demonstrates how data-driven approaches can enhance trading decision-making and strategy optimization.
+This project applies data science techniques to evaluate the performance of a Forex trading system known as the Candle Range Theory (CRT). The main goal is to identify which factors influence trade profitability and whether the strategy demonstrates consistent, statistically measurable edges across different market conditions. The project follows an end-to-end data science pipeline—from cleaning and preprocessing backtesting data to conducting exploratory data analysis (EDA), hypothesis testing, and building predictive models.
 
 ---
 
