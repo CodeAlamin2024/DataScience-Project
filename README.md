@@ -53,10 +53,8 @@ Backtesting provides a controlled environment where trades can be studied withou
 
 ---
 
-## Data Source
-**Primary Dataset:**  
-
-## Primary Dataset
+## Data Source 
+**Primary Dataset:**
 The dataset consists of backtested CRT trades on the GBPUSD currency pair, including:
 - Date & time of entry
 - Entry and exit prices
@@ -71,11 +69,7 @@ The dataset consists of backtested CRT trades on the GBPUSD currency pair, inclu
 - Weekly timing effects (day-of-week performance)
 
 **Collection Method:**  
-Data is generated via a platform-based backtesting system (TradingView). To enrich this dataset (as required), I will integrate additional financial indicators such as:
-- Daily volatility or ATR values  
-- Major economic news events (e.g., CPI, NFP releases)  
-- Market session information (London, New York, Asian sessions)
-
+Data is generated via a platform-based backtesting system (TradingView). 
 ---
 
 ## Methodology
@@ -101,7 +95,31 @@ Goal: Predict **whether a trade will be profitable** based on pre-trade features
 Models considered:
 - Logistic Regression / Random Forest (classification)  
 - Linear Regression / XGBoost (return prediction)  
-- Feature importance analysis for signal interpretation  
+- Feature importance analysis for signal interpretation
+
+### 1. **Data Cleaning & Feature Engineering**
+Convert dates and times into actionable features (hour, weekday, session).
+Convert win/loss into numerical labels.
+Compute R-multiple, duration, and percentage returns.
+Standardize all text-based fields.
+### 2. **Exploratory Data Analysis (EDA)**
+Profit & loss distributions
+Win rates by session, weekday, and direction
+Equity curve visualization
+Correlation heatmaps
+Performance tables grouped by categorical variables
+### 3. **Hypothesis Testing**
+Examples:
+Does the session influence win rate? (Chi-square)
+Are sell trades statistically more profitable than buys? (T-test)
+Is Monday statistically stronger than other days? (Z-test)
+These tests validate whether observed trends are meaningful or random.
+### 4. **Machine Learning**
+Objective:
+Predict whether a trade will be profitable based only on pre-trade data.
+Models used:
+Logistic Regression
+Random Forest
 
 ---
 
