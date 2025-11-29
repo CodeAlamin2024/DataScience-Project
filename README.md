@@ -16,11 +16,11 @@ CRT begins by identifying key candles on the 4-hour (H4) chart. The ranges—hig
 
 ## 2. Candle 1 – Candle 2 – Candle 3 Model
 The foundational pattern in CRT consists of three candles:
-# Candle 1 (Impulse Candle):
+### Candle 1 (Impulse Candle):
 Typically creates a large move that sweeps liquidity and sets the initial range.
-# Candle 2 (Reversal Candle):
+### Candle 2 (Reversal Candle):
 Often rejects the extreme of Candle 1 and signals a potential turning point.
-# Candle 3 (Continuation Candle):
+### Candle 3 (Continuation Candle):
 Confirms the direction by breaking out or filling imbalances.
 Most CRT trades are based on the reaction around Candle 2.
 
