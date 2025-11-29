@@ -69,7 +69,9 @@ The dataset consists of backtested CRT trades on the GBPUSD currency pair, inclu
 - Weekly timing effects (day-of-week performance)
 
 **Collection Method:**  
+
 Data is generated via a platform-based backtesting system (TradingView). 
+
 ---
 
 ## Methodology
