@@ -45,6 +45,9 @@ CRT is rule-based, structured, and time-dependent. This makes it ideal for data-
 - Zones that can be converted into numerical features
 This allows the CRT strategy to be examined using statistical tests and machine learning.
 
+For more information and detail explanation regarding this strategy, you can visit Trading Candle 3 -> https://youtu.be/qdQYhePcvGE?si=PLr3-BOJR-bZKGm8
+Trading Candle 2 -> https://youtu.be/m4k_1pF5zFI?si=KneJD5S0nOhzYYtG
+
 ## Motivation
 Traders often rely on intuition or experience, but markets generate rich data that can be analyzed objectively. As a data science student and trader, I wanted to answer:
 > “Which parts of the CRT strategy truly produce an edge and which do not?”
